@@ -1,4 +1,31 @@
+# Environments
 .env
 
+# Distribution / packaging
+build/
+dist/
 
+# Mac/OSX
+.DS_Store
+
+#modules
 node_modules
+
+
+# Private Files
+*.json
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+*.xlsx
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Local History for Visual Studio Code
+.history/
